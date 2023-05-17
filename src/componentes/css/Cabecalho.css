@@ -1,0 +1,45 @@
+
+.cabecalho, .botoes, .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho {
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo{
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+}
+
+.botao-Evento, .botao-login, .item {
+    padding: 0px 10px;
+}
+
+.itemCabecalho {
+    padding: 0px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.itemCabecalho:hover {
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.botao-Evento button{
+    background-color: rgb(16, 26, 26);
+    color: white;
+}
